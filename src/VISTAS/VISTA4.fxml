@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="447.0" prefWidth="663.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLADORES.CONTROLADOR4">
+   <children>
+      <TableView fx:id="MATRIZCOSTOS" layoutX="42.0" layoutY="29.0" onMouseClicked="#MOSTRAR" prefHeight="200.0" prefWidth="375.0">
+        <columns>
+          <TableColumn fx:id="C1" prefWidth="75.0" />
+          <TableColumn fx:id="C2" prefWidth="75.0" />
+            <TableColumn fx:id="C3" prefWidth="75.0" />
+            <TableColumn fx:id="C4" prefWidth="75.0" />
+            <TableColumn fx:id="C5" prefWidth="75.0" />
+        </columns>
+      </TableView>
+      <Label fx:id="TAREA2" layoutX="216.0" layoutY="14.0" />
+      <Label fx:id="TAREA1" layoutX="14.0" layoutY="120.0" />
+      <Button fx:id="SOLUCIONARbtn" layoutX="204.0" layoutY="249.0" mnemonicParsing="false" onAction="#SOLUCIONAR" text="SOLUCIONAR" />
+      <TextArea fx:id="MOSTRARRH" layoutX="449.0" layoutY="29.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="LIMPIARM" layoutX="54.0" layoutY="249.0" mnemonicParsing="false" onAction="#LIMPIARM" text="LIMPIAR" />
+      <Button fx:id="REGRESARbtn" layoutX="16.0" layoutY="408.0" mnemonicParsing="false" onAction="#REGRESAR" text="REGRESAR" />
+      <Button fx:id="LIMPIARRH" layoutX="523.0" layoutY="237.0" mnemonicParsing="false" onAction="#LIMPIARRH" text="LIMPIAR" />
+   </children>
+</AnchorPane>

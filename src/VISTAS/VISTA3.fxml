@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLADORES.CONTROLADOR3">
+   <children>
+      <Button fx:id="AGREGARbtn" layoutX="49.0" layoutY="279.0" mnemonicParsing="false" onAction="#AGREGAR" text="AGREGAR" />
+      <Button fx:id="LIMPIARbtn" layoutX="53.0" layoutY="316.0" mnemonicParsing="false" onAction="#LIMPIAR" text="LIMPIAR" />
+      <Button fx:id="REGRESARbtn" layoutY="374.0" mnemonicParsing="false" onAction="#REGRESAR" text="REGRESAR" />
+      <TextArea fx:id="MOSTRARtxt" layoutX="374.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextField fx:id="nSUMINISTRO" layoutX="14.0" layoutY="22.0" />
+      <TextField fx:id="nDEMANDA" layoutX="14.0" layoutY="75.0" />
+      <TextField fx:id="OFERTAtxt" layoutX="15.0" layoutY="132.0" />
+      <TextField fx:id="DEMANDAtxt" layoutX="15.0" layoutY="187.0" />
+      <TextField fx:id="COSTOStxt" layoutX="12.0" layoutY="238.0" />
+      <Label layoutX="17.0" layoutY="5.0" text="SUMINISTRO" />
+      <Label layoutX="14.0" layoutY="57.0" text="DEMANDA" />
+      <Label layoutX="15.0" layoutY="114.0" text="OFERTA" />
+      <Label layoutX="15.0" layoutY="169.0" text="DEMANDA" />
+      <Label layoutX="14.0" layoutY="220.0" text="COSTOS" />
+      <Button fx:id="BORRARbtn" layoutX="448.0" layoutY="216.0" mnemonicParsing="false" onAction="#BORRAR" text="BORRAR" />
+      <Button fx:id="SIGUIENTEbtn" layoutX="522.0" layoutY="361.0" mnemonicParsing="false" onAction="#SIGUIENTE" text="SIGUIENTE" />
+   </children>
+</AnchorPane>
